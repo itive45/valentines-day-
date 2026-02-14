@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultimate Valentine 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background music -->
+  <audio id="bgMusic" autoplay loop>
+    <source src="assets/bg-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="game-container">
+    <h1>Catch My Heart & Roses! 🌹❤️</h1>
+    <p>Move your mouse to catch hearts and roses falling from the sky!</p>
+    <div id="score">Score: 0</div>
+    <div id="gameArea"></div>
+
+    <div id="winMessage" class="hidden">
+      <h2>💖 You Win! 💖</h2>
+      <p>You melted my heart! Forever yours ❤️</p>
+      <video id="loveVideo" width="400" controls autoplay>
+        <source src="assets/love-video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
